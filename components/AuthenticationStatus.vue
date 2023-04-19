@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { status, data, signOut, signIn } = useSession()
+const { status, data, signOut, signIn } = useAuth()
 const email = ref('')
 const password = ref('')
 const handleSubmit = async () => {
